@@ -5,9 +5,9 @@
     height="2000px"
     id="ipad">
    
-    <rect height="1224" width="808" rx="30" ry="30"/>
-    <rect height="1024" width="768" x="20" y="100" fill="white"/>
-    <circle r="8" fill="#C2C2C2" cx="404" cy="50"/>
-    <circle r="20" fill="#C2C2C2" cx="404" cy="1174"/>
+    <rect height="1224" width="808" rx="30" ry="30" y="456"/>
+    <rect height="1024" width="768" x="20" y="556" fill="white"/>
+    <circle r="8" fill="#C2C2C2" cx="404" cy="506"/>
+    <circle r="20" fill="#C2C2C2" cx="404" cy="1630"/>
     
 </svg>
