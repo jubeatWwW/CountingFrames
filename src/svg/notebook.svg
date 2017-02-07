@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.1"
+    viewBox="0 0 2000 2000"
+    width="2000px"
+    height="2000px"
+    id="notebook">
+    
+    <defs>
+        <linearGradient id="keyboard" x1="0" x2="1" y1="0" y2="0">
+            <stop stop-color="#C2C2C2" offset="0"/>
+            <stop stop-color="#DEDEDE" offset="100%"/>
+        </linearGradient>
+    </defs>
+   
+    <rect height="30" width="1500" y="930" x="100"/>
+    <rect height="960" width="1500" rx="30" ry="30" x="100"/>
+    <rect height="900" width="1440" x="130" y="30" fill="white"/>
+    <circle r="8" fill="#C2C2C2" cx="850" cy="15"/>
+    
+    <rect height="30" width="1700" y="960" fill="url(#keyboard)"/>
+    <rect height="8" width="400" x="650" y="975" cx="8" cy="8"/>
+</svg>

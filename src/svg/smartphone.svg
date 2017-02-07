@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    version="1.1"
+    viewBox="0 0 2000 2000"
+    width="2000px"
+    height="2000px"
+    id="smartphone">
+   
+    <rect height="630" width="360" rx="30" ry="30"/>
+    <rect height="480" width="320" x="20" y="75" fill="white"/>
+    <circle r="8" fill="#C2C2C2" cx="120" cy="37.5"/>
+    <rect height="12" width="80" rx="5" ry="5" x="140" y="31.5" fill="#C2C2C2"/>
+    <circle r="20" fill="#C2C2C2" cx="180" cy="592.5"/>
+    
+</svg>
