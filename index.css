@@ -6,10 +6,6 @@ figure div{
     position: absolute;
 }
 
-figure div object{
-    padding-bottom: 0;
-}
-
 @media screen and (min-width: 1440px){
     figure div{
         width: 500px;
@@ -21,7 +17,15 @@ figure div object{
     }
 
     figure .notebook{
-        left: 50%;
+        left: 63%;
+    }
+
+    figure .ipad{
+        left: 20%;
+    }
+
+    figure .smartphone{
+        left: 32%;
     }
 }
 
