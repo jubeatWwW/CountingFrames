@@ -16,6 +16,7 @@
     <rect height="30" width="1500" y="1598" x="100" />
     <rect height="960" width="1500" rx="30" ry="30" x="100" y="668"/>
     <rect height="900" width="1440" x="130" y="698" fill="white"/>
+    <use xlink:href="react.svg#react" x="550" y="848" height="600px" width="600px"></use>
     <circle r="8" fill="#C2C2C2" cx="850" cy="683"/>
     
     <rect height="30" width="1700" y="1628" fill="url(#keyboard)"/>

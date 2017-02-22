@@ -6,31 +6,181 @@ figure div{
     position: absolute;
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-device-width: 1600px){
     figure div{
         width: 500px;
+        left: 46%;
     }
 
     figure .tablet{
-        left: 50%;
         transform: translate(-50%);
     }
 
     figure .notebook{
-        left: 63%;
+        transform: translate(35%);
     }
 
     figure .ipad{
-        left: 20%;
+        transform: translate(-85%);
     }
 
     figure .smartphone{
-        left: 32%;
+        transform: translate(-50%);
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1439px){
+@media screen and (min-device-width: 1025px) 
+    and (max-device-width: 1600px) 
+    and (-webkit-min-device-pixel-ratio: 1){
+
     figure div{
-        width: 400px;
+        width: 800px;
+        left: 46%;
+    }
+    
+    figure .tablet{
+        display: none;
+    }
+
+    figure .notebook{
+        transform: translate(-50%);
+    }
+
+    figure .ipad{
+        transform: translate(20%);
+        z-index: -1;
+    }
+    
+    figure .smartphone{
+        transform: translate(-50%);
     }
 }
+
+@media screen and (min-device-width: 1025px) 
+    and (max-device-width: 1600px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (min-resolution: 192dpi){
+
+    figure div{
+        width: 800px;
+        left: 46%;
+    }
+    
+    figure .tablet{
+        display: none;
+    }
+
+    figure .notebook{
+        transform: translate(-50%);
+    }
+
+    figure .ipad{
+        transform: translate(20%);
+        z-index: -1;
+    }
+    
+    figure .smartphone{
+        transform: translate(-50%);
+    }
+}
+
+
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px)
+    and (orientation: portrait){
+    figure div{
+        width: 900px;
+        left: 50%;
+    }
+    
+    figure .tablet{
+        display: none;
+    }
+
+    figure .notebook{
+        display: none;
+    }
+
+    figure .ipad{
+        transform: translate(-15%);
+    }
+
+    figure .smartphone{
+        transform: translate(-35%);
+    }
+
+}
+
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px)
+    and (orientation: landscape){
+    figure div{
+        width: 700px;
+        left: 50%;
+    }
+    
+    figure .tablet{
+        display: none;
+    }
+
+    figure .notebook{
+        display: none;
+    }
+
+    figure .ipad{
+        transform: translate(-10%);
+    }
+
+    figure .smartphone{
+        transform: translate(-30%);
+    }
+
+}
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait){
+    figure div{
+        width: 800px;
+        left: 50%;
+    }
+    
+    figure .tablet{
+        display: none;
+    }
+
+    figure .notebook{
+        display: none;
+    }
+
+    figure .ipad{
+        display: none;
+    }
+
+    figure .smartphone{
+        transform: translate(-10%);
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape){
+    figure div{
+        width: 800px;
+        left: 50%;
+    }
+    
+    figure .tablet{
+        display: none;
+    }
+
+    figure .notebook{
+        display: none;
+    }
+
+    figure .ipad{
+        display: none;
+    }
+
+    figure .smartphone{
+        transform: translate(-10%);
+    }
+}
+

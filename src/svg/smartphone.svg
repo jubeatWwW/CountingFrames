@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
     version="1.1"
     viewBox="0 0 2000 2000"
     width="2000px"
@@ -6,7 +7,8 @@
     id="smartphone">
    
     <rect height="630" width="360" rx="30" ry="30" y="1020" style="stroke-width: 5; stroke: white;"/>
-    <rect height="480" width="320" x="20" y="1095" fill="white"/>
+    <rect height="480" width="320" x="20" y="1095" fill="white" />
+    <use xlink:href="react.svg#react" x="80" y="1235"></use>
     <circle r="8" fill="#C2C2C2" cx="120" cy="1057.5"/>
     <rect height="12" width="80" rx="5" ry="5" x="140" y="1051.5" fill="#C2C2C2"/>
     <circle r="20" fill="#C2C2C2" cx="180" cy="1612.5"/>

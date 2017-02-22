@@ -20,6 +20,26 @@
             </div>
         </figure>
     </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="src/DrawSVGPlugin.min.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/timelineFactory.js"></script>
+    <script src="js/logo.js"></script>
     <script>
+        document.getElementById("tablet").addEventListener("load", function(){
+            var doc = this.getSVGDocument();
+            var timeFac = new LogoAnimes();
+            timeFac.add(reactLogoTween);
+            timeFac.add(angularLogoTween);
+            console.log(timeFac.addToTimeline());
+            console.log(doc);
+            var timeline = new LogoTimeline(doc, timeFac.addToTimeline());
+            timeline.play();
+            
+            /*var ellipse = doc.querySelector("ellipse");
+            var t1 = new TimelineLite();
+            t1.from(ellipse, 5, {drawSVG: 0});*/
+        });
     </script>
 </html>
